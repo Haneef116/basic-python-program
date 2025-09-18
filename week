@@ -1,0 +1,17 @@
+week=int(input("enter week"))
+if week==1:
+  print("day is sunday")
+elif week==2:
+  print("day is monday")
+elif week==3:
+  print("day is tuesday")
+elif week==4:
+  print("day is wednesday")
+elif week==5:
+  print("day is thursday")
+elif week==6:
+  print("day is friday")
+elif week==7:
+  print("day is saturday")
+else:
+  print("invalid day")
